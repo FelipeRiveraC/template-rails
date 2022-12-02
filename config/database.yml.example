@@ -5,20 +5,20 @@ default: &default
 
 development:
   <<: *default
-  username: felipe
-  password: felipe
-  database: plutto_tarea_development
+  username: username
+  password: password
+  database: db_development
 
 
 test:
   <<: *default
-  username: felipe
-  password: felipe
-  database: plutto_tarea_test
+  username: username
+  password: password
+  database: db_test
 
 
 production:
   <<: *default
-  database: plutto_tarea_production
+  database: db_production
   username: proyecto
   password: <%= ENV['PROYECTO_DATABASE_PASSWORD'] %>
