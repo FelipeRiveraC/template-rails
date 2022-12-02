@@ -1,24 +1,34 @@
-# README
+# Ruby On Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Author: FelipeRiveraC
 
-Things you may want to cover:
+This ruby on rails template proyect has the following pre installed features:
 
-* Ruby version
+- JWT Authorization
+- CRUD Users
+- Views / API
+- JSON Api Serializer
 
-* System dependencies
+This proyect allows views and  compiles the asset pipeline.
 
-* Configuration
 
-* Database creation
+# Local Start
 
-* Database initialization
+* Add the ``database.yml``, use ``database.yml.example`` as reference
+* Generate the ``master.key`` and add ``secret_access_key`` as JWT secret key to your secrets
+* Run ``rails db:create``
+* Run ``rails db:migrate``
+* Run ``rails s``
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+# Future feaures
+* Include pundit authorization
+* Include capistrano basic configuration for automated deploys
+* Performance imporvments
 
-* Deployment instructions
+# Contributions
 
-* ...
+Feel free to submit changes to the master branch, i will be reviewing them.
+
+
+
